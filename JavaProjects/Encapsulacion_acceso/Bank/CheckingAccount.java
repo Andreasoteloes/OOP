@@ -1,5 +1,9 @@
-public class CheckingAccount{
 
+package bank;
+
+ 
+
+public class CheckingAccount {  
  public String name;
  public int balance;
 
@@ -7,4 +11,5 @@ public class CheckingAccount{
  name=inputName;
  balance=inputBalance;
 }
+ 
 }

@@ -1,4 +1,8 @@
-public class Bank{
+
+package bank;
+
+public class Bank {
+
  public CheckingAccount
  accountOne;
   public CheckingAccount
