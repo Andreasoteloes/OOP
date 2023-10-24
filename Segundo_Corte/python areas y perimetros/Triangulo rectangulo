@@ -1,0 +1,15 @@
+
+cateto1 = float(input("Ingresa la longitud del primer cateto: "))
+cateto2 = float(input("Ingresa la longitud del segundo cateto: "))
+
+
+area = 0.5 * cateto1 * cateto2
+
+
+hipotenusa = (cateto1**2 + cateto2**2)**0.5
+
+perimetro = cateto1 + cateto2 + hipotenusa
+
+
+print("El area del triangulo rectangulo es:", area)
+print("El perimetro del triangulo rectangulo es:", perimetro)

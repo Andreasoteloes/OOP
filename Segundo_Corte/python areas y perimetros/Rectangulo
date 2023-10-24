@@ -1,0 +1,8 @@
+ladoA = float(input("Ingresa la longitud del lado A del rectangulo: "))
+ladoB = float(input("Ingresa la longitud del lado B del rectangulo: "))
+
+area = ladoA * ladoB
+perimetro = 2 * (ladoA + ladoB)
+
+print("El area del rectangulo es:", area)
+print("El perimetro del rectangulo es:", perimetro)

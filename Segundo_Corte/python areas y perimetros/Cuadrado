@@ -1,0 +1,6 @@
+lado = float(input("Ingresa la longitud del lado del cuadrado: "))
+area = lado * lado
+perimetro = 4 * lado
+
+print("El area del cuadrado es:", area)
+print("El perimetro del cuadrado es:", perimetro)
